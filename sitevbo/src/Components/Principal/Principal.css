@@ -1,0 +1,14 @@
+
+.principal {
+    padding: 20px;
+    text-align: center;
+}
+
+.principal h1 {
+    color: #007bff;
+}
+
+.principal p {
+    color: #333;
+    font-size: 18px;
+}
