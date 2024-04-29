@@ -29,9 +29,8 @@ const NavBar = () => {
             {/* Más ítems aquí */}
           </NavDropdown>
           <Nav.Link href="#how-it-works">Cómo funciona</Nav.Link>
-          <LinkContainer to="/iniciar-sesion">
-            <Nav.Link>Iniciar sesión</Nav.Link>
-          </LinkContainer>
+          {/* Usa un enlace directo para una URL externa */}
+          <Nav.Link href="https://vbo.chakuy.com">Iniciar sesión</Nav.Link>
           <LinkContainer to="/iniciar-campania">
             <Button variant="outline-success">Iniciar una campaña</Button>
           </LinkContainer>
