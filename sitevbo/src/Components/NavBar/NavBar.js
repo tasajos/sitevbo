@@ -23,8 +23,20 @@ const NavBar = () => {
             <Nav.Link>Descubrir</Nav.Link>
           </LinkContainer>
           <NavDropdown title="Red de Voluntarios" id="basic-nav-dropdown">
-            <LinkContainer to="/causa1">
-              <NavDropdown.Item>Causa 1</NavDropdown.Item>
+            <LinkContainer to="/epr">
+              <NavDropdown.Item>Bomberos Voluntarios</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to="/animalistas">
+              <NavDropdown.Item>Animalistas</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to="/ambientalistas">
+              <NavDropdown.Item>Ambientalistas</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to="/educacion">
+              <NavDropdown.Item>Educacion</NavDropdown.Item>
+            </LinkContainer>
+            <LinkContainer to="/Ambulancias">
+              <NavDropdown.Item>Ambulancias</NavDropdown.Item>
             </LinkContainer>
             {/* Más ítems aquí */}
           </NavDropdown>

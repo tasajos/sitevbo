@@ -9,8 +9,8 @@ function Principal() {
         <div>
             <NavBar />
         <div className="principal">
-            <h1>Bienvenidos a la Plataforma de Voluntarios de Bolivia</h1>
-            <p>Explora las campañas activas o inicia tu propia campaña.</p>
+            <h1>Bienvenidos a la Plataforma VBO</h1>
+            <p>Explora las campañas activas</p>
             {/* Aquí podrás añadir más componentes como listas de campañas, etc. */}
 
             <Slider />
