@@ -22,6 +22,9 @@ const NavBar = () => {
           <LinkContainer to="/descubrir">
             <Nav.Link>Descubrir</Nav.Link>
           </LinkContainer>
+          <LinkContainer to="/eventos">
+            <Nav.Link>Eventos</Nav.Link>
+          </LinkContainer>
           <NavDropdown title="Red de Voluntarios" id="basic-nav-dropdown">
             <LinkContainer to="/epr">
               <NavDropdown.Item>Bomberos Voluntarios</NavDropdown.Item>
@@ -38,8 +41,12 @@ const NavBar = () => {
             <LinkContainer to="/Ambulancias">
               <NavDropdown.Item>Ambulancias</NavDropdown.Item>
             </LinkContainer>
+           
             {/* Más ítems aquí */}
           </NavDropdown>
+          <LinkContainer to="/voluntarios">
+            <Nav.Link>Conviertete en Voluntario</Nav.Link>
+          </LinkContainer>
           <Nav.Link href="#how-it-works">Emergencias</Nav.Link>
           {/* Usa un enlace directo para una URL externa */}
           <Nav.Link href="https://vbo.chakuy.com">Iniciar sesión</Nav.Link>
