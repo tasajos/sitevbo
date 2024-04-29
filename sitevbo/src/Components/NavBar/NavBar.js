@@ -22,13 +22,13 @@ const NavBar = () => {
           <LinkContainer to="/descubrir">
             <Nav.Link>Descubrir</Nav.Link>
           </LinkContainer>
-          <NavDropdown title="Recaudar fondos para" id="basic-nav-dropdown">
+          <NavDropdown title="Red de Voluntarios" id="basic-nav-dropdown">
             <LinkContainer to="/causa1">
               <NavDropdown.Item>Causa 1</NavDropdown.Item>
             </LinkContainer>
             {/* Más ítems aquí */}
           </NavDropdown>
-          <Nav.Link href="#how-it-works">Cómo funciona</Nav.Link>
+          <Nav.Link href="#how-it-works">Emergencias</Nav.Link>
           {/* Usa un enlace directo para una URL externa */}
           <Nav.Link href="https://vbo.chakuy.com">Iniciar sesión</Nav.Link>
           <LinkContainer to="/iniciar-campania">
