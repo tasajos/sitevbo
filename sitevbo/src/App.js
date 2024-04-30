@@ -11,6 +11,7 @@ function App() {
       
         <Routes>
           <Route path="/" element={<Principal />} />
+          
           {/* Aquí puedes añadir más rutas según sea necesario */}
         </Routes>
       

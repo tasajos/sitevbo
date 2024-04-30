@@ -2,6 +2,7 @@ import React from 'react';
 import './Principal.css';  // Importa los estilos específicos
 import NavBar from '../NavBar/NavBar'; // Ajusta la ruta relativa según sea necesario
 import Slider from './Slider/Slider'; // Ajusta la ruta relativa según sea necesario
+import Footer from '../Footer/Footer'; // Ajusta la ruta relativa según sea necesario
 
 function Principal() {
     return (
@@ -15,7 +16,12 @@ function Principal() {
 
             <Slider />
         </div>
+
+        <Footer />
+        
         </div>
+
+
     );
 }
 
