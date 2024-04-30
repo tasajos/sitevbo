@@ -16,7 +16,9 @@ function Principal() {
             {/* Aquí podrás añadir más componentes como listas de campañas, etc. */}
 
             <Slider /> <br></br> <br></br>
-            <CampanasPagina />
+            <h1>Eventos</h1>
+            <br></br>
+            <CampanasPagina /> <br></br> <br></br>
         </div>
 
         <Footer />

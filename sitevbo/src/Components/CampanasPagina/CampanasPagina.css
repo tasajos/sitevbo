@@ -1,35 +1,59 @@
-/* CampanasPagina.css */
+/* src/components/CampanasPagina/CampanasPagina.css */
 
 .card {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra a las tarjetas */
-    border: none; /* Elimina el borde predeterminado de las tarjetas de Bootstrap */
-  }
-  
-  .card-img-top {
-    height: 200px; /* O un valor que coincida con el diseño */
-    object-fit: cover; /* Asegura que la imagen cubra el área sin perder la relación de aspecto */
-  }
-  
-  .card-title {
-    color: #333; /* Color para el título, ajusta según tu paleta de colores */
-  }
-  
-  .card-text {
-    color: #666; /* Color para el texto, ajusta según tu paleta de colores */
-  }
-  
-  .btn-primary {
-    background-color: #5B51D8; /* Color de fondo para los botones, basado en tu esquema de color */
-    border-color: #5B51D8; /* Color del borde para los botones */
-  }
-  
-  .btn-primary:hover {
-    background-color: #6B61E8; /* Color de fondo para el hover */
-    border-color: #6B61E8; /* Color del borde para el hover */
-  }
-  
-  .card-footer {
-    background-color: white; /* Fondo blanco para el footer de la tarjeta */
-    border-top: none; /* Sin borde superior para un look limpio */
-  }
-  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra a las tarjetas */
+  border: none; /* Elimina el borde predeterminado de las tarjetas de Bootstrap */
+}
+
+.card-img-top {
+  height: 180px; /* Establece una altura fija */
+  object-fit: cover; /* Asegura que la imagen cubra el área */
+}
+
+.card-title {
+  color: #333; /* Color para el título, ajusta según tu paleta de colores */
+}
+
+.card-text {
+  color: #666; /* Color para el texto, ajusta según tu paleta de colores */
+}
+
+.btn-primary {
+  background-color: #5B51D8; /* Color de fondo para los botones, basado en tu esquema de color */
+  border-color: #5B51D8; /* Color del borde para los botones */
+}
+
+.btn-primary:hover {
+  background-color: #6B61E8; /* Color de fondo para el hover */
+  border-color: #6B61E8; /* Color del borde para el hover */
+}
+
+.card-footer {
+  background-color: white; /* Fondo blanco para el footer de la tarjeta */
+  border-top: none; /* Sin borde superior para un look limpio */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: url('data:image/svg+xml;charset=UTF-8,%3csvg xmlns="http://www.w3.org/2000/svg" fill="%23000000" viewBox="0 0 8 8"%3e%3cpath d="M4.5 0L3 1.5l2.5 2.5L3 6.5l1.5 1.5 4-4-4-4z"/%3e%3c/svg%3e'),
+                   linear-gradient(white, white); /* Fondo blanco */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%, 100%; /* Ajusta el tamaño del SVG y el gradiente de fondo */
+  border-radius: 50%; /* Hace el fondo redondo */
+  width: 34px; /* Ajusta el tamaño */
+  height: 34px; /* Ajusta el tamaño */
+  padding: 8px; /* Espacio alrededor de la flecha */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  color: #000; /* Asegúrate de que los controles sean visibles si es necesario cambiar */
+  filter: none; /* Elimina cualquier filtro previo que pueda afectar el color */
+  width: 5%; /* Ajusta el ancho de la zona clickeable */
+}
+
+.carousel {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%); /* Asegura que el carrusel ocupe el ancho completo */
+}
