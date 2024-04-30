@@ -1,0 +1,35 @@
+/* CampanasPagina.css */
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade sombra a las tarjetas */
+    border: none; /* Elimina el borde predeterminado de las tarjetas de Bootstrap */
+  }
+  
+  .card-img-top {
+    height: 200px; /* O un valor que coincida con el diseño */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin perder la relación de aspecto */
+  }
+  
+  .card-title {
+    color: #333; /* Color para el título, ajusta según tu paleta de colores */
+  }
+  
+  .card-text {
+    color: #666; /* Color para el texto, ajusta según tu paleta de colores */
+  }
+  
+  .btn-primary {
+    background-color: #5B51D8; /* Color de fondo para los botones, basado en tu esquema de color */
+    border-color: #5B51D8; /* Color del borde para los botones */
+  }
+  
+  .btn-primary:hover {
+    background-color: #6B61E8; /* Color de fondo para el hover */
+    border-color: #6B61E8; /* Color del borde para el hover */
+  }
+  
+  .card-footer {
+    background-color: white; /* Fondo blanco para el footer de la tarjeta */
+    border-top: none; /* Sin borde superior para un look limpio */
+  }
+  
