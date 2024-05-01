@@ -15,22 +15,21 @@ const Footer = () => {
           </div>
           
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 className="text-uppercase mb-4">Recursos</h5>
+            <h5 className="text-uppercase mb-4">Enlaces</h5>
             <ul className="list-unstyled">
-              <li><a href="#!" className="footer-link">Enlace 1</a></li>
-              <li><a href="#!" className="footer-link">Enlace 2</a></li>
-              <li><a href="#!" className="footer-link">Enlace 3</a></li>
-              <li><a href="#!" className="footer-link">Enlace 4</a></li>
+              <li><a href="/" className="footer-link">Inicio</a></li>
+              <li><a href="/Emergencia" className="footer-link">Emergencias</a></li>
+              <li><a href="/ConVol" className="footer-link">Conviertete en Voluntario</a></li>
+            
             </ul>
           </div>
 
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
             <h5 className="text-uppercase mb-4">Proyectos</h5>
             <ul className="list-unstyled">
-              <li><a href="#!" className="footer-link">Proyecto 1</a></li>
-              <li><a href="#!" className="footer-link">Proyecto 2</a></li>
-              <li><a href="#!" className="footer-link">Proyecto 3</a></li>
-              <li><a href="#!" className="footer-link">Proyecto 4</a></li>
+              <li><a href="#!" className="footer-link">Equipamiento Voluntarios</a></li>
+              <li><a href="#!" className="footer-link">Forestacion</a></li>
+              
             </ul>
           </div>
 
