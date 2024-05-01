@@ -5,19 +5,19 @@ const Promo = () => {
     return (
         <div className="promo-section">
             <div className="promo-content">
-                <h1>Better, Faster and Cheaper Cloud.</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                <button className="get-started">Get Started</button>
+                <h1>Únete a Nuestra Red de Voluntarios</h1>
+                <p>Participa en una comunidad dedicada a hacer una diferencia significativa a través del voluntariado en áreas como el bienestar animal, la protección ambiental y el apoyo comunitario.</p>
+                <button className="get-started">Participa Ahora</button>
                 <div className="features">
-                    <p>✔ Available in 7 Locations</p>
-                    <p>✔ Premium Internet Backbone</p>
-                    <p>✔ 99.99% Uptime SLA</p>
+                    <p>✔ Oportunidades en múltiples áreas</p>
+                    <p>✔ Conecta con otros voluntarios</p>
+                    <p>✔ Capacitación y desarrollo personal</p>
                 </div>
             </div>
             <div className="promo-quote">
                 <blockquote>
-                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”
-                    <footer>— Charlotte Hale, Delos Inc.</footer>
+                    “Cada pequeño esfuerzo cuenta, y juntos podemos lograr grandes cambios.”
+                    <footer>— Nombre Apellido, Fundador de [VBO]</footer>
                 </blockquote>
             </div>
         </div>
