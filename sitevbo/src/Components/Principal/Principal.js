@@ -4,6 +4,7 @@ import NavBar from '../NavBar/NavBar'; // Ajusta la ruta relativa según sea nec
 import Slider from './Slider/Slider'; // Ajusta la ruta relativa según sea necesario
 import Footer from '../Footer/Footer'; // Ajusta la ruta relativa según sea necesario
 import CampanasPagina from '../CampanasPagina/CampanasPagina'; // Ajusta la ruta relativa según sea necesario
+import Features from '../Principal/Features/Features'; // Ajusta la ruta relativa según sea necesario
 
 function Principal() {
     return (
@@ -16,6 +17,7 @@ function Principal() {
             {/* Aquí podrás añadir más componentes como listas de campañas, etc. */}
 
             <Slider /> <br></br> <br></br>
+            <Features /> <br></br> <br></br>
             <h1>Eventos</h1>
             <br></br>
             <CampanasPagina /> <br></br> <br></br>
