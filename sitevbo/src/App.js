@@ -6,6 +6,8 @@ import logo from './logo.svg';
 import Principal from './Components/Principal/Principal';
 import BomberosVoluntarios from './Components/RedVoluntarios/BomberosVoluntarios/BomberosVoluntarios';
 import Animalistas from './Components/RedVoluntarios/Animalistas/Animalistas';
+import Ambientalistas from './Components/RedVoluntarios/Ambientalistas/Ambientalistas';
+import Educacion from './Components/RedVoluntarios/Educacion/Educacion';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
           <Route path="/" element={<Principal />} />
           <Route path="/BomberosV" element={<BomberosVoluntarios />} />
           <Route path="/AnimalistasV" element={<Animalistas />} />
+          <Route path="/AmbientalistasV" element={<Ambientalistas />} />
+          <Route path="/EducacionV" element={<Educacion />} />
           
           {/* Aquí puedes añadir más rutas según sea necesario */}
         </Routes>

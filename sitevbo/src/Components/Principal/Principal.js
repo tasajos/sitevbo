@@ -21,10 +21,11 @@ function Principal() {
             <Slider /> <br></br> <br></br>
             <Features /> <br></br> <br></br>
             <Promo /> <br></br> <br></br>
-            <Sponsors /> <br></br> <br></br>
             <h1>Nuestros Eventos</h1>
             <br></br>
             <CampanasPagina /> <br></br> <br></br>
+            <Sponsors /> <br></br> <br></br>
+           
         </div>
 
         <Footer />

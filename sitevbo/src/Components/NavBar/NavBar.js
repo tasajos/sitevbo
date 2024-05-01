@@ -29,15 +29,13 @@ const NavBar = () => {
             <LinkContainer to="/AnimalistasV">
               <NavDropdown.Item>Animalistas</NavDropdown.Item>
             </LinkContainer>
-            <LinkContainer to="/ambientalistas">
+            <LinkContainer to="/AmbientalistasV">
               <NavDropdown.Item>Ambientalistas</NavDropdown.Item>
             </LinkContainer>
-            <LinkContainer to="/educacion">
+            <LinkContainer to="/EducacionV">
               <NavDropdown.Item>Educacion</NavDropdown.Item>
             </LinkContainer>
-            <LinkContainer to="/Ambulancias">
-              <NavDropdown.Item>Ambulancias</NavDropdown.Item>
-            </LinkContainer>
+            
            
             {/* Más ítems aquí */}
           </NavDropdown>
