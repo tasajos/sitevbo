@@ -19,8 +19,8 @@ const NavBar = () => {
           </Form>
           {/* Los elementos Nav seguirán alineados a la derecha */}
           <Nav className="ml-auto">
-          <LinkContainer to="/descubrir">
-            <Nav.Link>Descubrir</Nav.Link>
+          <LinkContainer to="/">
+            <Nav.Link>Inicio</Nav.Link>
           </LinkContainer>
           <NavDropdown title="Red de Voluntarios" id="basic-nav-dropdown">
             <LinkContainer to="/BomberosV">
@@ -42,7 +42,7 @@ const NavBar = () => {
           <LinkContainer to="/ConVol">
             <Nav.Link>Conviertete en Voluntario</Nav.Link>
           </LinkContainer>
-          <Nav.Link href="#how-it-works">Emergencias</Nav.Link>
+          <Nav.Link href="/Emergencia">Emergencias</Nav.Link>
           {/* Usa un enlace directo para una URL externa */}
          <a href="https://vbo.chakuy.com" className="btn btn-outline-success">
          Iniciar Sesión</a>

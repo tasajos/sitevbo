@@ -9,6 +9,7 @@ import Animalistas from './Components/RedVoluntarios/Animalistas/Animalistas';
 import Ambientalistas from './Components/RedVoluntarios/Ambientalistas/Ambientalistas';
 import Educacion from './Components/RedVoluntarios/Educacion/Educacion';
 import ContactoVoluntario from './Components/ConvierteteVoluntario/Convolun'; 
+import Emergencia from './Components/Emergencias/Emergencias'; 
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/AmbientalistasV" element={<Ambientalistas />} />
           <Route path="/EducacionV" element={<Educacion />} />
           <Route path="/ConVol" element={<ContactoVoluntario />} />
+          <Route path="/Emergencia" element={<Emergencia />} />
           
           {/* Aquí puedes añadir más rutas según sea necesario */}
         </Routes>
