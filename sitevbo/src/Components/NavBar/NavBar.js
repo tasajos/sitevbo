@@ -39,7 +39,7 @@ const NavBar = () => {
            
             {/* Más ítems aquí */}
           </NavDropdown>
-          <LinkContainer to="/voluntarios">
+          <LinkContainer to="/ConVol">
             <Nav.Link>Conviertete en Voluntario</Nav.Link>
           </LinkContainer>
           <Nav.Link href="#how-it-works">Emergencias</Nav.Link>

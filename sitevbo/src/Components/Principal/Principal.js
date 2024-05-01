@@ -9,6 +9,7 @@ import Promo from '../Principal/Promo/Promo';
 import Sponsors from '../Principal/Sponsors/Sponsors'; 
 import CampanasOpor from '../CampanasOportunidades/OportunidadesV'; // Ajusta la ruta relativa según sea necesario
 
+
 function Principal() {
     return (
 
