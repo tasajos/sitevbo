@@ -1,16 +1,12 @@
-/* Footer.css */
-
 .footer-link {
-    text-decoration: none; /* Elimina el subrayado de los enlaces */
-    color: white; /* Mantiene el color blanco para todos los enlaces del footer */
-  }
-  
-  .footer-link:hover {
-    text-decoration: none; /* Asegura que no aparece subrayado al pasar el mouse */
-  }
-  
-  /* Si estás usando SCSS o si prefieres mantener el estilo en línea con Bootstrap */
-  .text-white a {
-    text-decoration: none;
-  }
-  
+  color: white; /* Asegura que los enlaces sean blancos */
+}
+
+.text-white, .text-white p, .text-white h5 {
+  color: white !important; /* Fuerza el color blanco en todos los textos dentro de los elementos con la clase text-white */
+}
+
+/* Si deseas que todos los textos dentro del footer sean blancos sin importar su estructura */
+footer.text-white * {
+  color: white !important;
+}

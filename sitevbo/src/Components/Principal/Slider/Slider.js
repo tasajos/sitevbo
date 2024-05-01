@@ -19,7 +19,7 @@ const Slider = () => {
         />
         <Carousel.Caption>
           <h3>La Paz</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -30,7 +30,7 @@ const Slider = () => {
         />
         <Carousel.Caption>
           <h3>Cochabamba</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <p></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -42,7 +42,7 @@ const Slider = () => {
         <Carousel.Caption>
           <h3>Santa Cruz</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+           
           </p>
         </Carousel.Caption>
       </Carousel.Item>

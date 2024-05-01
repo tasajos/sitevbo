@@ -1,5 +1,3 @@
-//Components/Footer/Footer.js
-
 import React from 'react';
 import logo from '../Imagenes/Voluntarios.png'; // Asegúrate de que la ruta al logo es correcta
 import './Footer.css'; // Importa el archivo CSS donde defines los estilos
@@ -10,9 +8,9 @@ const Footer = () => {
       <div className="container p-4">
         <div className="row my-4">
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0 d-flex justify-content-center align-items-center">
-            <div>
+            <div className="text-center">
               <img src={logo} alt="Logo" className="mb-4" style={{ height: '120px' }} />
-              <p className="text-center">VBO</p>
+              <p>VBO</p>
             </div>
           </div>
           
