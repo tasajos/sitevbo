@@ -7,6 +7,7 @@ import CampanasPagina from '../CampanasPagina/CampanasPagina'; // Ajusta la ruta
 import Features from '../Principal/Features/Features'; // Ajusta la ruta relativa según sea necesario
 import Promo from '../Principal/Promo/Promo'; 
 import Sponsors from '../Principal/Sponsors/Sponsors'; 
+import CampanasOpor from '../CampanasOportunidades/OportunidadesV'; // Ajusta la ruta relativa según sea necesario
 
 function Principal() {
     return (
@@ -21,6 +22,9 @@ function Principal() {
             <Slider /> <br></br> <br></br>
             <Features /> <br></br> <br></br>
             <Promo /> <br></br> <br></br>
+            <h1>Oportunidades de Voluntariado</h1>
+            <br></br>
+            <CampanasOpor /> <br></br> <br></br>
             <h1>Nuestros Eventos</h1>
             <br></br>
             <CampanasPagina /> <br></br> <br></br>
