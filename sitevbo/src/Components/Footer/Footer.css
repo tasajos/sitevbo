@@ -1,12 +1,25 @@
+/* Footer.css */
 .footer-link {
-  color: white; /* Asegura que los enlaces sean blancos */
+  color: white; /* Establece el color de los enlaces a blanco */
+  text-decoration: none; /* Elimina el subrayado de los enlaces */
+  transition: color 0.3s ease; /* Añade una transición suave para el color */
 }
 
-.text-white, .text-white p, .text-white h5 {
-  color: white !important; /* Fuerza el color blanco en todos los textos dentro de los elementos con la clase text-white */
+.footer-link:hover, .footer-link:focus {
+  color: #cccccc; /* Cambia el color al pasar el ratón o al enfocar para mejorar la accesibilidad */
+  text-decoration: none; /* Confirma que no haya subrayado al hacer hover o focus */
 }
 
-/* Si deseas que todos los textos dentro del footer sean blancos sin importar su estructura */
-footer.text-white * {
-  color: white !important;
+.footer {
+  background-color: #007bff; /* Establece el color de fondo del footer */
+  color: white; /* Establece el color de texto general del footer */
+}
+
+.footer p, .footer h5, .footer li {
+  color: inherit; /* Hace que todos los textos dentro del footer hereden el color blanco */
+}
+
+/* Mejorar la visibilidad y estilo de los íconos si están presentes */
+.footer i {
+  color: white; /* Color de los íconos */
 }

@@ -17,7 +17,7 @@ const Promo = () => {
             <div className="promo-quote">
                 <blockquote>
                     “Cada pequeño esfuerzo cuenta, y juntos podemos lograr grandes cambios.”
-                    <footer>— Nombre Apellido, Fundador de [VBO]</footer>
+                    <footer></footer>
                 </blockquote>
             </div>
         </div>

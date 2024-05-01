@@ -4,11 +4,11 @@ import './Footer.css'; // Importa el archivo CSS donde defines los estilos
 
 const Footer = () => {
   return (
-    <footer className="bg-primary text-center text-lg-start text-white">
+    <footer className="footer bg-primary text-center text-lg-start text-white">
       <div className="container p-4">
         <div className="row my-4">
           <div className="col-lg-3 col-md-6 mb-4 mb-md-0 d-flex justify-content-center align-items-center">
-            <div className="text-center">
+            <div>
               <img src={logo} alt="Logo" className="mb-4" style={{ height: '120px' }} />
               <p>VBO</p>
             </div>

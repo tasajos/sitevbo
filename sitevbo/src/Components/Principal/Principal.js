@@ -6,6 +6,7 @@ import Footer from '../Footer/Footer'; // Ajusta la ruta relativa según sea nec
 import CampanasPagina from '../CampanasPagina/CampanasPagina'; // Ajusta la ruta relativa según sea necesario
 import Features from '../Principal/Features/Features'; // Ajusta la ruta relativa según sea necesario
 import Promo from '../Principal/Promo/Promo'; 
+import Sponsors from '../Principal/Sponsors/Sponsors'; 
 
 function Principal() {
     return (
@@ -20,7 +21,8 @@ function Principal() {
             <Slider /> <br></br> <br></br>
             <Features /> <br></br> <br></br>
             <Promo /> <br></br> <br></br>
-            <h1>Eventos</h1>
+            <Sponsors /> <br></br> <br></br>
+            <h1>Nuestros Eventos</h1>
             <br></br>
             <CampanasPagina /> <br></br> <br></br>
         </div>
