@@ -22,14 +22,11 @@ const NavBar = () => {
           <LinkContainer to="/descubrir">
             <Nav.Link>Descubrir</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/eventos">
-            <Nav.Link>Eventos</Nav.Link>
-          </LinkContainer>
           <NavDropdown title="Red de Voluntarios" id="basic-nav-dropdown">
-            <LinkContainer to="/epr">
+            <LinkContainer to="/BomberosV">
               <NavDropdown.Item>Bomberos Voluntarios</NavDropdown.Item>
             </LinkContainer>
-            <LinkContainer to="/animalistas">
+            <LinkContainer to="/AnimalistasV">
               <NavDropdown.Item>Animalistas</NavDropdown.Item>
             </LinkContainer>
             <LinkContainer to="/ambientalistas">
@@ -49,10 +46,8 @@ const NavBar = () => {
           </LinkContainer>
           <Nav.Link href="#how-it-works">Emergencias</Nav.Link>
           {/* Usa un enlace directo para una URL externa */}
-          <Nav.Link href="https://vbo.chakuy.com">Iniciar sesión</Nav.Link>
-          <LinkContainer to="/iniciar-campania">
-            <Button variant="outline-success">Iniciar una campaña</Button>
-          </LinkContainer>
+         <a href="https://vbo.chakuy.com" className="btn btn-outline-success">
+         Iniciar Sesión</a>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
