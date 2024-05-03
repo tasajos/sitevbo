@@ -9,17 +9,20 @@ const Sponsors = () => {
         {
             name: "Tunari Sin Fuego",
             role: "",
-            img:  tsfImage // Tunari Sin Fuego
+            img:  tsfImage, // Tunari Sin Fuego
+            facebookUrl: "https://www.facebook.com/TunariSinFuego"
         },
         {
             name: "Todos Somos Bolivia",
             role: "",
-            img: tsbImage // Reemplaza con la ruta a la imagen correspondiente
+            img: tsbImage, // Reemplaza con la ruta a la imagen correspondiente
+            facebookUrl: "https://www.facebook.com/TodosSomosBoliviaa"
         },
         {
             name: "Fundacion Kpn",
             role: "",
-            img: kpnImage // Reemplaza con la ruta a la imagen correspondiente
+            img: kpnImage,
+            facebookUrl: "https://www.facebook.com/kpnsafetybolivia" // Reemplaza con la ruta a la imagen correspondiente
         }
     ];
 
@@ -32,7 +35,9 @@ const Sponsors = () => {
                     <div className="sponsor-item" key={sponsor.name}>
                         <img src={sponsor.img} alt={sponsor.name} />
                         <h3>{sponsor.name}</h3>
-                        <p>{sponsor.role}</p>
+                        {/*<p>{sponsor.role}</p>*/}
+                        <a href={sponsor.facebookUrl} target="_blank" rel="noopener noreferrer" className="facebook-btn">Facebook</a>
+
                     </div>
                 ))}
             </div>

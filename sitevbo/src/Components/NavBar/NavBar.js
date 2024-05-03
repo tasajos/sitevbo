@@ -27,10 +27,10 @@ const NavBar = () => {
               <NavDropdown.Item>Bomberos Voluntarios</NavDropdown.Item>
             </LinkContainer>
             <LinkContainer to="/AnimalistasV">
-              <NavDropdown.Item>Animalistas</NavDropdown.Item>
+              <NavDropdown.Item>Rescate Animal - Fauna y Flora</NavDropdown.Item>
             </LinkContainer>
             <LinkContainer to="/AmbientalistasV">
-              <NavDropdown.Item>Ambientalistas</NavDropdown.Item>
+              <NavDropdown.Item>Medio Ambiente</NavDropdown.Item>
             </LinkContainer>
             <LinkContainer to="/EducacionV">
               <NavDropdown.Item>Educacion</NavDropdown.Item>

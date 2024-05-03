@@ -54,6 +54,21 @@
     color: #666;
 }
 
+.facebook-btn {
+    display: inline-block;
+    background-color: #4267B2; /* Color de Facebook */
+    color: white;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 4px;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    font-weight: bold;
+}
+
+.facebook-btn:hover {
+    background-color: #365899; /* Color más oscuro para el hover */
+}
+
 @media (max-width: 768px) {
     .sponsor-item {
         width: 100%;

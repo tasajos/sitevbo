@@ -13,7 +13,7 @@ const Features = () => {
                     <div className="icon">
                         <FontAwesomeIcon icon={faPaw} />
                     </div>
-                    <h3>Animalistas</h3>
+                    <h3>Rescate Animal - Fauna y Flora</h3>
                     <p>Colabora en la protección y bienestar animal participando en rescates y campañas de sensibilización.</p>
                 </div>
                 <div className="feature-item">
@@ -27,7 +27,7 @@ const Features = () => {
                     <div className="icon">
                         <FontAwesomeIcon icon={faTree} />
                     </div>
-                    <h3>Ambientalistas</h3>
+                    <h3>Medio Ambiente</h3>
                     <p>Participa en proyectos de conservación y educación ambiental para fomentar un futuro sostenible.</p>
                 </div>
                 <div className="feature-item">
